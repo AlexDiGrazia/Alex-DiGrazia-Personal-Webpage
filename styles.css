@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homepage-div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-div a {
+  margin: 0 10px;
+}
+
+i {
+  color: ivory;
+  background-color: transparent;
+}
+
+i:hover {
+  animation-name: hover;
+  animation-duration: .15s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes hover {
+  from { bottom: 0; left: 0;}
+  to { bottom: 5px; left: 5px;}
+}
+
+/* @keyframes box {
+  from {box-shadow:none;}
+  to {box-shadow: 0 0 20px 5px rgb(253, 77, 107);}
+} */
